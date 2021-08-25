@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "pkvazuredatafactory"
 		},
+		"lsAzureDatabricks_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'lsAzureDatabricks'"
+		},
 		"lsAzureSqlDatabase_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'lsAzureSqlDatabase'"
@@ -45,6 +49,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"lsAzureDatabricks_accessToken": {
+						"value": "[parameters('lsAzureDatabricks_accessToken')]"
 					},
 					"lsAzureSqlDatabase_connectionString": {
 						"value": "[parameters('lsAzureSqlDatabase_connectionString')]"

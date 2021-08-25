@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "pkvazuredatafactory"
 		},
+		"lsAzureDatabricks_accessToken": {
+			"value": ""
+		},
 		"lsAzureSqlDatabase_connectionString": {
 			"value": ""
 		},
