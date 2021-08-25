@@ -5,6 +5,9 @@
 			"referenceName": "lspkvdeloittestorageacc",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "Lake"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
