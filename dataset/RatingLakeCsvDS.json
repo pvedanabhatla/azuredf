@@ -23,15 +23,19 @@
 		},
 		"schema": [
 			{
+				"name": "userId",
 				"type": "String"
 			},
 			{
+				"name": "movieId",
 				"type": "String"
 			},
 			{
+				"name": "rating",
 				"type": "String"
 			},
 			{
+				"name": "timestamp",
 				"type": "String"
 			}
 		]
